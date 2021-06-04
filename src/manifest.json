@@ -1,0 +1,11 @@
+{
+  "name": "Taps Reducer",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "storage", "sessions"],
+  "background": {
+    "service_worker": "background.bundle.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
